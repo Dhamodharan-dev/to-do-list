@@ -1,0 +1,65 @@
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+.App-header {
+  padding: 2px;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+.input-field{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+}
+.input, .submit{
+  width: 35%;
+  height: 30px;
+  padding: 4px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.submit{
+  width: 50px;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+}
+.items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  list-style: none;
+  font-size: 1.3rem;
+}
+.checkbox{
+  width: 25px;
+  height: 25px;
+}
+p{
+  width: inherit;
+  word-wrap: break-word;
+}
+.del-btn{
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 850px) {
+  .input{
+    width: 50%;
+  }
+}
